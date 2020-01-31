@@ -1,0 +1,89 @@
+
+.herospark-social{
+  padding: 2% 5%;
+  max-width: 90%;
+  margin: 0 auto;
+  a:hover{
+    text-decoration: none;
+    color: #262626 !important;
+  }
+  h4{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 63px;
+    color: #262626;
+    margin: 5% 3%;
+    @media(max-width: 992px){
+      font-size: 30px;
+      line-height: 38px;
+    }
+    span{
+      color: #FF305C;
+    }
+  }
+  .social-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    @media(max-width: 992px){
+      flex-direction: column;
+    }
+    img{
+      max-width: 374px;
+      padding: 5% 0;
+      width: 100%;
+      height: auto;
+    }
+    h5{
+      text-align: left;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 22px;
+      line-height: 28px;
+      text-align: left;
+      margin-top: 2%;
+    }
+    .text-area{
+      display: flex;
+      flex-direction: row;
+      color: #fff !important;
+      justify-content: flex-start;
+      padding-top: 5%;
+      i{
+        margin: 0 10px;
+      }
+    }
+    .face{
+      max-width: 410px;
+      margin: 0 2%;
+      width: 100%;
+      text-align: center;
+      background: url(https://herospark.com/wp-content/uploads/2019/10/facebook-1-1.png);
+      @media(max-width: 992px){
+        margin: 5% auto;
+      }
+    }
+    .insta{
+      max-width: 410px;
+      margin: 0 2%;
+      width: 100%;
+      text-align: center;
+      background: url(https://herospark.com/wp-content/uploads/2019/10/instagram-1-1.png);
+      @media(max-width: 992px){
+        margin: 5% auto;
+      }
+    }
+    .linkedin{
+      max-width: 410px;
+      margin: 0 2%;
+      width: 100%;
+      text-align: center;
+      background: url(https://herospark.com/wp-content/uploads/2019/10/linkedin-1-1.png);
+      @media(max-width: 992px){
+        margin: 5% auto;
+      }
+    }
+  }
+}

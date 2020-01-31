@@ -1,0 +1,33 @@
+@import 'Custom.scss';
+$primary-color: #FF305C;
+
+ .Players-color{
+     color: $primary-color!important;
+     a{
+         color: $primary-color!important;
+     }
+ }
+
+
+ .btn-primary, .btn-2x{
+    width:250px!important
+}
+
+.text-player{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+#Players{
+    height: 125vh!important;
+    // padding-top: 10vh;
+    .img-logo{
+        @include justify-center;
+        width: 25vw;
+        // margin-top: 15vh;
+    }
+}
+
+

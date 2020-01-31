@@ -1,0 +1,36 @@
+.herospark-midia{
+  padding: 2% 5%;
+  h4{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 63px;
+    color: #FF305C;
+    text-align: center;
+    margin: 5% auto;
+    @media(max-width: 992px){
+      font-size: 30px;
+      line-height: 38px;
+    }
+  }
+  .midia{
+    img{
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 5% auto;
+      text-align: center;
+      max-width: 278px;
+    }
+    p{
+      font-family: Muli;
+      font-style: italic;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 23px;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.5)
+    }
+  }
+}

@@ -1,0 +1,131 @@
+.be-ahero{
+  padding: 5%;
+  background: url(https://herospark.com/wp-content/uploads/2019/10/Rectangle-38.png);
+  background-size: 80%;
+  background-repeat: repeat-x;
+  background-position: 50% 50%;
+    @media(max-width:1230px){
+      background:#ff305c;
+      background-size: 100%;
+      background-position: 50% 50%;
+    }
+    .hero-overlay{
+      background: linear-gradient(32.88deg, rgba(0, 223, 236, 1) 0%, rgba(116, 39, 241, 1) 100%);
+      height: fit-content;
+      width: fit-content;
+      @media(max-width:1230px){
+        margin: 5% 0 !important
+      }
+      img{
+        opacity: 0.7;
+        @media(max-width:1230px){
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+
+    h3{
+      font-family: Muli;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 50px;
+      line-height: 63px;
+      display: flex;
+      align-items: center;
+      color: #FFFFFF;
+      @media(max-width:1230px){
+        font-size: 26.5px;
+        line-height: 33px;
+      }
+    }
+    p{
+      font-family: Muli;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 160%;
+      color: #FFFFFF;
+      width: 80%;
+      @media(max-width:1230px){
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+      }
+      b{
+        font-weight: 900;
+      }
+    }
+  .be-ahero-img{
+    display: flex;
+    justify-content: center;
+    @media(max-width:1230px){
+      width: 100%;
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+    }
+    img{
+      margin: 0 auto;
+      display: block;
+      @media(max-width:1230px){
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  .be-ahero-text{
+    display: flex;
+    @media(max-width:1230px){
+      display:none;
+    }
+    .be-ahero-flex{
+      display:flex;
+      flex-direction: column;
+      margin-top: 20%;
+      justify-content: center;
+      @media(max-width: 1500px){
+        padding-left: 15%;
+      }
+      .hero-overlay {
+        margin: 5% 0 !important;
+      }
+      img{
+        @media(max-width:1230px){
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+    .be-ahero-flex2{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 5%;
+    }
+  }
+
+  .be-ahero-text-mobile{
+    display: none;
+    width: 100%;
+    @media(max-width:1230px){
+      display:block;
+    }
+    .be-ahero-flex{
+      margin: 5% auto;
+      text-align: center;
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      .hero-overlay {
+        margin: 5% !important;
+      }
+    }
+    .be-ahero-flex2{
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.dados-hero-home{
+  margin: 5% 0 0 0 ;
+  .dados-area{
+    text-align: center;
+    h3{
+      font-weight: 900;
+      font-size: 50px;
+      line-height: 63px;
+      color: $primary;
+    }
+    p{
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 23px;
+      color: $tertiary;
+    }
+  }
+}

@@ -1,0 +1,257 @@
+@mixin arrow-carousel {
+  font-size: 30px;
+  color: #000;
+  position: absolute;
+}
+
+@mixin justfy-center {
+  display: flex;
+  justify-content: center;
+}
+.product{
+  .content-align{
+    flex-wrap: wrap;
+  }
+}
+
+
+.content-sm {
+  max-width: 100%;
+  flex: 0 0 100%;
+}
+
+.btn-sm {
+  padding: 0.25rem 1rem;
+}
+
+.btn-outline-primary {
+  font-weight: 900;
+  font-size: 18px;
+  border-color: #ff305c;
+  color: #ff305c;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+ 
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: #ff305c !important;
+    border-color: #ff305c !important;
+    color: #fff !important;
+    outline: none;
+  }
+}
+
+.carousel-products {
+  position: relative;
+  width: 100%;
+  margin-top: 7%;
+  margin-bottom: -5%;
+  z-index: 1;
+  .item {
+    // padding: 10px 0;
+    // height:155px;
+    &:focus {
+      box-shadow: none;
+      outline: none;
+    }
+
+    .product {
+      margin: 0 auto;
+      background: #f2f2f2;
+      width: 100%;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      padding: 26px 16px;
+      transition: all 0.2s linear;
+      transform: scale(0.9);
+
+      p {
+        font-size: 14px;
+      }
+    }
+
+    &.slick-center .product {
+      background: #ffffff;
+      transform: scale(1.1);
+    }
+  }
+
+  .slick-next {
+    .slick-next:before {
+      content: "";
+    }
+    .fa-chevron-right {
+      @include arrow-carousel;
+      margin-left: 15px;
+    }
+  }
+
+  .slick-prev {
+    .slick-prev:before {
+      content: "";
+    }
+
+    .fa-chevron-left {
+      @include arrow-carousel;
+      margin-left: -45px;
+    }
+    @media (max-width: 1380px) {
+      top: 80%;
+    }
+  }
+}
+
+.carousel-products {
+  max-width: 90%;
+  height: 25vh;
+  margin-top: 7%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-products .slick-current {
+  position: inherit !important;
+  z-index: 5;
+}
+
+.carousel-products .item .product {
+  max-width: 450px;
+  height: 43vh;
+}
+
+@media(min-width: 1920px){
+  .carousel-products .item .product{
+    height: 30vh;
+  }
+}
+
+@media (max-width: 1380px) {
+  .carousel-products {
+    margin-bottom: 0%;
+  }
+
+  .carousel-products .item .product {
+    max-width: 450px;
+    height: 310px;
+  }
+
+  .carousel-products .slick-track {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 1024px) {
+  .content-align {
+    flex-wrap: wrap;
+  }
+
+
+  .carousel-products .item .product {
+    max-width: 450px;
+    height: 340px;
+  }
+}
+@media (max-width: 770px) {
+  .carousel-products .item .product {
+    max-width: 450px;
+    height: 440px;
+  }
+
+  .carousel-products {
+    max-width: 80%;
+    height: 35vh;
+    margin-top: 5%;
+    margin-bottom: 28vh;
+    margin-left: 71px;
+    .slick-prev {
+      .fa-chevron-left {
+        margin-left: -25px;
+      }
+    }
+    .slick-track {
+      height: 60vw;
+    }
+  }
+
+
+  .slick-next {
+    top: 81% !important;
+  }
+
+  .slick-next,
+  .slick-prev {
+    right: -10px;
+  }
+}
+
+@media (max-width: 480px) {
+ 
+  .carousel-products {
+    max-width: 70%;
+    height: 25vh;
+    margin-top: 5%;
+    margin-bottom: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+    .item .product {
+      max-width: 280px;
+      height: 325px;
+    }
+    .slick-track {
+      height: 80vw;
+    }
+  }
+
+
+
+
+}
+
+@media (max-width: 375px) {
+
+  .carousel-products {
+    max-width: 70%;
+    height: 26vh;
+    margin-top: 5%;
+    margin-bottom: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    .slick-track{
+      height: 105vw;
+    }
+    .slick-next .fa-chevron-right{
+      margin-left: -7px;
+    }
+  }
+
+  .carousel-products .item .product {
+    max-width: 220px;
+    height: 375px;
+  }
+  
+  .item {
+    width: 230px;
+  }
+}
+
+@media (max-width: 320px) {
+ 
+
+  .carousel-products {
+    max-width: 70%;
+    height: 49vh;
+    margin-top: 5%;
+    margin-bottom: 19vh;
+    margin-left: auto;
+    margin-right: auto;
+    .slick-track{
+      height: 75vh;
+    }
+  }
+
+  .carousel-products .item .product {
+    max-width: 220px;
+    height: 400px;
+  }
+}
+
+

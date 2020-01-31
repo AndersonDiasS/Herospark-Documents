@@ -1,0 +1,51 @@
+.comecar-agora{
+  padding: 5% 0;
+   .comecar-flex{
+    align-items: center;
+    display: flex;
+    @media(max-width: 992px){
+      flex-direction: column;
+    }
+  }
+  h2{
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 63px;
+    color: $primary;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .comecar-agora-img{
+    img{
+      max-width: 583px;
+      display: block;
+      text-align: center;
+      margin: 0 auto;
+      padding: 5%;
+      width: 100%;
+      height: auto;
+      transition: 0.3s all;
+    }
+  }
+  .comecar-agora-txt{
+    padding: 5%;
+    p{
+      font-size: 20px;
+      line-height: 160%;
+      color: $secondary
+    }
+    h3{
+      font-size: 22px;
+      line-height: 28px;
+      font-weight: 900;
+      color: #8f5ae6;
+      &:hover{
+        cursor: pointer;
+        color: $tertiary;
+      }
+    }
+    hr{
+      border-color: $tertiary;
+    }
+  }
+}

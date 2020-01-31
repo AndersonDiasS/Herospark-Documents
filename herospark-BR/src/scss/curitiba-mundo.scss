@@ -1,0 +1,51 @@
+.curitiba-mundo{
+  padding: 2% 5%;
+  .flex-area{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    @media(max-width: 992px){
+      flex-direction: column;
+    }
+  }
+  h4{
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 63px;
+    color: #FF305C;
+    text-align: right;
+    margin: 5% 0;
+    @media(max-width: 992px){
+      text-align: center;
+      font-size: 30px;
+      line-height: 38px;
+    }
+    span{
+      color: #262626;
+    }
+  }
+  .curitiba-mundo-img{
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .curitiba-mundo-txt{
+    width: 80%;
+    @media(max-width: 992px){
+      width: 100%;
+      margin: 5% auto;
+    }
+    p{
+      font-family: Muli;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 160%;
+      color: #262626;
+    }
+  }
+}

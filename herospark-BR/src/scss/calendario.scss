@@ -1,0 +1,57 @@
+.calendario{
+  display: block;
+  padding: 5%;
+
+  h2{
+    width:60%;
+    display: block;
+    text-align: left;
+    color: #FF305C;
+    font-size: 50px;
+    line-height: 63px;
+    font-weight: 900;
+    @media(max-width: 992px){
+      font-size: 36px;
+      line-height: 45px;
+    }
+  }
+
+  hr{
+    border: solid 1px #FF305C;
+  }
+
+  h3{
+    text-align: left;
+    color: #FF305C;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 28px;
+    @media(max-width: 992px){
+      font-size: 20px;
+      line-height: 25px;
+    }
+  }
+  h4{
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 28px;
+    color: $secondary;
+    @media(max-width: 992px){
+      font-size: 20px;
+      line-height: 25px;
+    }
+  }
+  p{
+    font-size: 16px;
+    line-height: 160%;
+  }
+
+  img{
+    width:100%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    max-width: 729px;
+  }
+
+}

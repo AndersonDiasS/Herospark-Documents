@@ -1,0 +1,29 @@
+/*!
+Theme Name: Jornada do Heroi
+Authors: Anderson Dias, Gustavo Santoro
+Design: Bruna Fujie
+Version: 1.0
+*/
+
+// Geral
+@import 'Custom.scss';
+
+// Leagues 
+@import 'BuilderLeague.scss';
+@import 'LeanersLeague.scss';
+@import 'Players.scss';
+@import 'ideathon.scss';
+@import 'Justice.scss';
+
+// Menu 
+@import 'menu-drawer.scss';
+
+//Animate
+@import 'Animate.scss';
+
+// Responsivo 
+@import 'viewport.scss'; 
+
+// Slick
+@import 'slick.scss';
+@import 'slick-theme.scss';

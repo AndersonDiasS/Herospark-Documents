@@ -1,0 +1,50 @@
+@import 'Custom.scss';
+$primary-color: #262626;
+
+.justice-color{
+  color: $primary-color!important;
+  a{
+    color: $primary-color!important;
+  }
+}
+
+.first-content{
+    font-size:30px;
+    line-height: 38px;
+    text-align: center;
+    color: $primary-color;
+    p{
+      font-weight: normal;
+     
+    }
+    a{
+      font-weight: bold;
+    }
+  }
+
+
+  .justice-finish{
+    width: 50%;
+  }
+  
+#Justice{
+    height: 125vh!important;
+   
+
+
+    .img-logo{
+        @include justify-center;
+        width: 25vw;
+    }
+
+    .btn-primary{
+      color: #000;
+    }
+ 
+
+ 
+ 
+
+}
+
+ 

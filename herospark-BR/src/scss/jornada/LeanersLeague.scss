@@ -1,0 +1,26 @@
+@import 'Custom.scss';
+$primary-color: #00DFEC;
+
+
+.Leaners-font{
+    color: $primary-color!important;
+    i{
+        color: $primary-color!important;
+    }
+}
+
+#Leaners{
+    display: flex;
+    justify-content: center;
+    height: 125vh!important;
+    padding-top: 12vh;
+    padding-bottom: 10vh;
+   
+
+      .btn-primary{
+          color: $primary-color;
+      }
+
+}
+
+ 

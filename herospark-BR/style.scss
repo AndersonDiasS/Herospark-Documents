@@ -1,0 +1,37 @@
+/*!
+Theme Name: Herospark-BRASIL
+Authors: Davi Oliveira, Eddie Teixeira, Gustavo Santoro
+Design: Bruna Fujie
+Version: 1.0
+*/
+
+/* GERAL*/
+@import './src/scss/geral.scss';
+@import './src/scss/navbar.scss';
+/* Home */
+@import './src/scss/hero-home.scss';
+@import './src/scss/dados-hero-home.scss';
+@import './src/scss/produtos-carousel.scss';
+@import './src/scss/especialistas.scss';
+@import './src/scss/comecar-agora.scss';
+@import './src/scss/chamada1.scss';
+@import './src/scss/falam.scss';
+@import './src/scss/chamada2.scss';
+@import './src/scss/calendario.scss';
+@import './src/scss/footer.scss';
+
+/* Sobre Nós */
+
+
+@import './src/scss/header-sobre.scss';
+@import './src/scss/sobre-section.scss';
+@import './src/scss/be-ahero.scss';
+@import './src/scss/curitiba-mundo.scss';
+
+@import './src/scss/herospark-midia.scss';
+@import './src/scss/herospark-social.scss';
+
+
+// Spark start
+@import './src/scss/start.scss';
+

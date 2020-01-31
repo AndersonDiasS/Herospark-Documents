@@ -1,0 +1,59 @@
+.footer{
+  background-color: $secondary;
+  padding: 2% 5%;
+  i{
+    color: #fff;
+    &:hover{
+      color: $primary;
+    }
+  }
+  a{
+    &:hover{
+      color: $primary !important;
+    }
+  }
+  img, p{
+    display: block;
+    margin:0 auto 3% auto;
+    color: white;
+    text-align: center;
+  }
+  img{
+    max-width: 158px;
+    margin: 5% auto;
+    width: 100%;
+    height: auto;
+    @media(max-width: 992px){
+      width: auto;
+    }
+  }
+  p{
+    font-size: 18px;
+    line-height: 160%;
+  }
+  .contato{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+  }
+  .social{
+    display:block;
+    margin: 0 auto;
+    max-width: 348px;
+    
+    @media(max-width: 992px){
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      flex-direction: row;
+      max-width:290px;
+      margin-top: 20px;
+    }
+    .row{
+      @media(max-width:992px){
+      flex-wrap: nowrap;
+      font-size: 1.5rem;
+    }
+    }
+  }
+}

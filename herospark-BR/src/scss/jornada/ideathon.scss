@@ -1,0 +1,46 @@
+$font-primary: #7427f1;
+
+ 
+
+
+.primary-font{
+  color: $font-primary;
+}
+/* Ideathon  */
+#ideathon {
+  display: flex;
+  justify-content: center;
+  height: 125vh !important;
+  padding-top: 4vh;
+  
+
+  // background: linear-gradient(145.3deg, #FF305C 0%, $font-primary 100%);
+}
+// #ideathon .card {
+//   width: 90% !important;
+//   background: #fff;
+//   height: 95vh;
+// }
+
+.ideathon .card-swiper img {
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: 20vh;
+}
+ 
+.start-jorney{
+  margin-top: 5vh;
+}
+
+ 
+
+
+#ideathon .slick-list .slick-track .card,
+img, a, p {
+  margin: 0 auto;
+  text-align: center;
+
+}
+ 
+ 
+/* ideathon */

@@ -17,6 +17,13 @@
   .SparkAffiliates {
     margin-left: 50%;
   }
+  #grupo-empreendedores .grupo-02 .image_02{
+    background-size: 75%;
+  }
+}
+
+@media(max-width:1370px) and (min-width:1150px){
+    #Ideathon-content{ bottom: -14vh; }
 }
 // 1200 a 760
 @media (max-width: 1150px) {
@@ -1496,8 +1503,11 @@
 
   #header {
     .content {
-      margin-top: 30%;
+      margin-top: 0%;
     }
+
+    .left{margin-top:0%}
+    .right{margin-top:0%}
   }
 
   p {

@@ -108,8 +108,17 @@ p {
 
 #header .left {
   text-align: right;
-  padding-top: 4%;
+  padding-top: unset;
+  margin-top: 20%;
 }
+
+
+#header .right {
+  text-align: unset;
+  padding-top: unset;
+  margin-top: 20%;
+}
+
 
 #header .left h1 {
   font-weight: 100;
@@ -186,7 +195,7 @@ p {
 #abre-metodologia .align-right {
   display: grid;
   text-align: right;
-  padding-top: 15%;
+  padding-top: 30%;
   font-weight: 900;
   vertical-align: middle;
   color: transparent;
@@ -418,8 +427,8 @@ p {
   text-align: center;
   margin: 0 auto;
   line-height: 200%;
-  height: 115vh;
-  padding-bottom: 10vh;
+  height: auto;
+  padding-bottom: 10vh; 
 }
 
 #fecha-intro p {
@@ -452,7 +461,7 @@ p {
   margin: 0 auto;
   background: white;
   height: 80vh;
-  padding-top: 20vh;
+  padding-top: 10vh;
   line-height: 38px;
   height: 90vh;
   margin-top: 5vh !important;
@@ -944,7 +953,7 @@ p {
 
 .p-item2 {
   position: absolute;
-  margin-top: 0vh;
+  margin-top: 10vh;
   z-index: 5;
 }
 
@@ -957,7 +966,7 @@ p {
 
 .p-item2c2 {
   position: absolute;
-  margin-top: -10vh;
+  margin-top: 5vh;
   margin-left: 35vh;
   z-index: 10;
 }

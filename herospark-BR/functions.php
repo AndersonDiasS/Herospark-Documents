@@ -177,9 +177,6 @@ wp_enqueue_script( 'slick-js', get_template_directory_uri() .
 wp_enqueue_script( 'main-js', get_template_directory_uri() .
 '/src/js/index.js', array('jquery'), '1.0', true );
 
-
- 
-
 function estilosSripts() {
   if ( is_page( 'jornada' ) ) {
     wp_enqueue_style('Css-Jornada.css', get_template_directory_uri().'/src/scss/jornada/jornada.css', false ,'1.0', 'all' );

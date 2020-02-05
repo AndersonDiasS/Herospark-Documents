@@ -444,7 +444,7 @@
 
                             <button class="btn-main"> <a href="https://materiais.herospark.com/ideathon" style="color: #ff305c" target="_target"> Quero Participar </a></button>
                         </div>
-                        <div class="text-center action-button panel-buttons desktop">
+                        <div class="text-center action-button panel-buttons desktop" id="Ideathon-content">
 
                           
 

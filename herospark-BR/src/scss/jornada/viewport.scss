@@ -21,15 +21,13 @@
     background-size: 75%;
   }
 }
+ 
 
 @media(max-width:1370px) and (min-width:1150px){
-    #Ideathon-content{ bottom: -14vh; }
+    #Ideathon-content{ bottom: -2vh; }
 }
 // 1200 a 760
 @media (max-width: 1150px) {
-
-
-
   .btn-main {
 
     a{
@@ -202,11 +200,7 @@
       left: 15vh;
     }
   }
-
-  .slick-dots {
-    bottom: -30vh !important;
-  }
-
+ 
   .topicos {
     display: none;
   }
@@ -352,9 +346,7 @@
   .content-builder {
     display: none;
   }
-  // .mobi-funnels {
-  //   width: 60%;
-  // }
+ 
 }
 @media (min-width: 990px) {
   .mobile {
@@ -1132,6 +1124,14 @@
       );
     }
   }
+
+  #Players {
+    .img-logo {
+      width: 80% !important;
+    }
+  }
+
+
   .div-open {
     .row {
       display: block;
@@ -1228,9 +1228,13 @@
     }
   }
 
+  .card img{
+    width:80%
+  }
+
   #Builders {
     .img-logo {
-      width: 60%;
+      width: 80%;
     }
   }
 
@@ -1533,6 +1537,17 @@
       }
     }
   }
+
+  .panel-buttons .btn-next::before{
+    margin-right: 0px;
+  }
+
+  .panel-buttons .btn-prev::after{
+    margin-left:5px;
+  }
+
+  #content-leaners .little-logo{ width:40%}
+
 }
 
 @media (max-width: 330px) {
@@ -1571,6 +1586,6 @@
   }
 
   .div-close .panel-buttons{
-    right: 6vh;
+    right: 10vh;
   }
 }

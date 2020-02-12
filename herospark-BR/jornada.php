@@ -436,8 +436,8 @@
                             <p class="text-left text-content3">
                                 E para isso, nós apresentamos o programa de imersão online 100% gratuito, o <b>Ideathon</b>.
                             </p>
-                            <br><br>
-                            <p class="text-left text-content4">
+                           
+                            <p class="text-left text-content4" style="margin-top:40px">
                                 O programa tem como objetivo fazer com que você identifique exatamente qual
                                 é o seu conhecimento que tem mais potencial de ser lucrativo e aprenda de que maneiras
                                 você pode transformar isso em algo muito maior e rentável, um negócio digital.</p>
@@ -540,7 +540,7 @@
                                 quer
                                 transformar isso em um negócio digital, <b> mas não sabe por onde começar</b>.
                             </p>
-                            <br>
+                          
                             <p class="text-right "> Aqui, você terá <b>contato com outros empreendedores</b> que estão com o
                                 mesmo objetivo que o seu, além
                                 de contato com produtores digitais que já atingiram o sucesso e estarão dispostos
@@ -620,7 +620,7 @@
                     <div class="col-md-6 col-sm-12 ">
 
 
-                        <h4 class="white">Nosso objetivo é fazer com que você tenha todo o auxílio
+                        <h4 class="white text-center">Nosso objetivo é fazer com que você tenha todo o auxílio
                             necessário para que você comece a criar o seu negócio digital
                             com o maior apoio, segurança, assertividade e chance de sucesso possíveis.
                         </h4>
@@ -680,8 +680,8 @@
                                 dar os primeiros passos</b> e realizou as primeiras vendas, mas <b>vê que seus resultados não
                                 são expressivos</b> e quer melhorá-los.
                             </p>
-                            <br><br>
-                            <p class="text-right"> Aqui você terá acesso a <b>informações</b> e <b>conteúdos</b> que o ajudarão
+                           
+                            <p class="text-right mt-10"> Aqui você terá acesso a <b>informações</b> e <b>conteúdos</b> que o ajudarão
                                 a <b>escalar suas vendas</b> e <b>consolidar o seu produto</b> no mercado digital.
                             </p>
                         </div>
@@ -691,8 +691,8 @@
                                 empreendedores digitais que também estarão em busca de consolidar seus negócios,
                                 junto de produtores que já alcançaram o sucesso e serão de grande ajuda para você
                                 melhorar os seus resultados.</p>
-                            <br><br>
-                            <p class="text-left ">Como forma de auxiliar você nessa etapa da jornada, nós entregamos
+                             
+                            <p class="text-left mt-10">Como forma de auxiliar você nessa etapa da jornada, nós entregamos
                                 alguns produtos que consideramos fundamentais para a construção de um negócio digital:
                             </p>
 
@@ -730,20 +730,7 @@
                 </div>
                 <div class="row div-open  " style="display: none;">
                     <!-- <div class="content-builder"> -->
-                    <div class="col-md-4 content-builder">
-
-                        <img
-                            src="<?php echo get_bloginfo( 'template_directory' ); ?>/src/images/jornada/sparkfunnels.svg">
-
-                        <br>
-                        <p>
-                            Ferramenta voltada para criação e estruturação de funis de venda de alta conversão, sem
-                            a necessidade de contratar programadores ou designers.
-                        </p>
-
-                        <button class="btn-builder"> <a href="https://funnels.herospark.com/" target="_blank">SAIBA MAIS </a></button>
-                    </div>
-
+           
                     <div class="col-md-4 content-builder">
                         <img
                             src="<?php echo get_bloginfo( 'template_directory' ); ?>/src/images/jornada/sparkmembers.png">
@@ -754,6 +741,21 @@
                         A melhor ferramenta para quem está começando a vender cursos online de forma profissional, séria  e segura.
                         </p>
                         <button class="btn-builder"> EM BREVE </button>
+                    </div>
+
+                    
+                    <div class="col-md-4 content-builder">
+
+                    <img
+                        src="<?php echo get_bloginfo( 'template_directory' ); ?>/src/images/jornada/sparkfunnels.svg">
+
+                    <br>
+                    <p>
+                        Ferramenta voltada para criação e estruturação de funis de venda de alta conversão, sem
+                        a necessidade de contratar programadores ou designers.
+                    </p>
+
+                    <button class="btn-builder"> <a href="https://funnels.herospark.com/" target="_blank">SAIBA MAIS </a></button>
                     </div>
 
                     <div class="col-md-4 content-builder">
@@ -767,6 +769,8 @@
                         <button class="btn-builder"> EM BREVE </button>
                     </div>
                     <!-- </div> -->
+
+
 
                     <div class="swiper-helper mobi-funnels animated  fadeIn delay-1s">
                         <div class="col-md-4 ">
@@ -933,22 +937,27 @@
                 </div>
                 <div class=" div-open" style="display: none;">
                     <div class="row">
-                        <div class="col-md-6 col-sm-12 ">
-                            <p> Para te ajudar, além da participação na comunidade, nós providenciamos uma ferramenta
+                        <div class="row ">
+                            <div class="col-md-6 col-sm-12">
+                            <p class="text-center"> Para te ajudar, além da participação na comunidade, nós providenciamos uma ferramenta
                                 que julgamos
                                 ser essencial na hora de amadurecer o seu produto e transformá-lo em algo muito maior:
                             </p>
+                            </div>
                             <img src="<?php echo get_bloginfo( 'template_directory' ); ?>/src/images/jornada/SparkAffiliates.svg"
                                 class="img-big-logo text-player">
                             <!-- <img src="src/images/SparkAffiliates.svg" class="img-big-logo text-player"> -->
-                            <p class="">
+                            <div class="col-md-6 col-sm-12">
+                            <p class="text-center">
                                 A rede de afiliados mais exclusiva da América Latina, onde somente pessoas com
                                 resultados comprovados podem fazer parte,
                                 de forma que os produtos hospedados pelos clientes HeroSpark sejam revendidos apenas
                                 pelos melhores
                             </p>
-                            <button class="btn-main btn-2x" ><a> EM BREVE </a></button>
-
+                                </div>
+                                <div class="col-md-12 col-sm-12">
+                                         <button class="btn-main btn-2x" ><a> EM BREVE </a></button>
+                                </div>
 
 
                         </div>

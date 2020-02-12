@@ -1,5 +1,5 @@
 $primary: #ff305c;
-$h-card: 65vh;
+$h-card: 85vh;
 $bottom-buttons: 0vh;
 
 @mixin justify-center {
@@ -480,7 +480,7 @@ p {
 .card-swiper .row {
   display: flex;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 15px;
   padding-bottom: 10px;
 }
 // Scrolling  css default
@@ -733,12 +733,7 @@ p {
     font-weight: 900!important;
   }
 }
-
-
-  .img-logo,
-  .little-logo {
-    margin-top: 7vh;
-  }
+ 
 }
 
 .content-align {
@@ -778,6 +773,7 @@ p {
 }
 
 #SparkstartLeaners {
+  height:75vh;
   .panel-buttons {
     bottom: 0vh;
     left: 0px;
@@ -788,17 +784,9 @@ p {
 
 #LeanersLastpage {
   .finish {
-    bottom: 20vh;
+    bottom: 0vh;
   }
 }
-
-.content-builder {
-  .panel-buttons {
-    bottom: 4vh;
-  }
-} 
-
-
   
 .last-page {
   .finish {
@@ -823,7 +811,7 @@ p {
 }
 
 .slick-dots {
-  bottom: -20vh !important;
+  bottom: -80% !important;
 }
 
 .big-paragraph {
